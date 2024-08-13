@@ -12,18 +12,6 @@ module.exports = {
     },
     extraFileExtensions: ['.json'],
   },
-  settings: {
-    // 识别 @ # alias
-    'import/resolver': 
-      alias: {
-        map: [
-          ['@', './src'],
-          ['#', './types'],
-        ],
-        extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
-      },
-    },
-  },
   /* ESLint 中基础配置需要继承的配置 */
   extends: [
     'airbnb',
