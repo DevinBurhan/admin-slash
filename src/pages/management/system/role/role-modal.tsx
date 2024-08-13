@@ -1,4 +1,4 @@
-import { Form, Modal, Input, InputNumber, Radio, Tree } from 'antd';
+import { Form, Input, InputNumber, Modal, Radio, Tree } from 'antd';
 import { useEffect } from 'react';
 
 import { PERMISSION_LIST } from '@/_mock/assets';

@@ -8,13 +8,13 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true, // 启用JSX
+      jsx: false, // 启用JSX
     },
     extraFileExtensions: ['.json'],
   },
   settings: {
     // 识别 @ # alias
-    'import/resolver': {
+    'import/resolver': 
       alias: {
         map: [
           ['@', './src'],

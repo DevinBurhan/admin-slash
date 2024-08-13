@@ -8,7 +8,7 @@
     "allowJs": true, // 允许编译JavaScript文件
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "sourceMap": true, // 输出 *.map 文件提供源码映射
     "declaration": true, // 是否生成声明文件（.d.ts）。
     "preserveWatchOutput": true, // 该选项允许在监视模式下保留先前编译的文件，从而避免增量编译时删除更改的文件导致的重新编译。
